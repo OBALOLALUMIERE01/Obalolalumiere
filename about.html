@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Obalola</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    :root {
+      --blue: #0a74da;
+      --black: #0b0c10;
+      --white: #f0f0f0;
+      --gray: #cdd6f4;
+      --lightgray: #444a6e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.7;
+    }
+
+    h1 {
+      color: var(--blue);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+      color: var(--gray);
+    }
+
+    blockquote {
+      font-style: italic;
+      color: var(--lightgray);
+      border-left: 4px solid var(--blue);
+      padding-left: 15px;
+      margin: 2rem 0;
+      white-space: pre-line;
+    }
+
+    .quote-author {
+      text-align: right;
+      margin-top: 0.5rem;
+      color: var(--blue);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .timeline {
+      margin-top: 2rem;
+      border-left: 3px solid var(--blue);
+      padding-left: 15px;
+      color: var(--gray);
+    }
+
+    .timeline-item {
+      margin-bottom: 1.4rem;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -9px;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      background: var(--blue);
+      border-radius: 50%;
+    }
+
+    nav {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 600;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>About Obalola Lumière Films</h1>
+    <p>
+      Welcome to the world of Obalola Lumière Films — where visual storytelling is elevated to an artform.
+    </p>
+    <p>
+      Born from the rhythm of Lagos and rooted in the soul of Kogi, Obalola's eye for motion captures beauty in its purest form. With a signature style that blends complexity with calmness, every frame is crafted with meaning, music, and emotion.
+    </p>
+    <p>
+      Whether directing music videos, crafting visuals for emerging artists, or building cinematic worlds on a budget — Obalola Lumière Films brings clarity, creativity, and cultural pride to the forefront.
+    </p>
+    <p>
+      Our mission is simple: to empower artists and brands with videos that move hearts and break limits.
+    </p>
+
+    <blockquote>
+      In the silent dance of light and shadow,  
+      I weave stories only the heart can hear —  
+      where complexity finds calm,  
+      and every frame whispers a dream.
+    </blockquote>
+    <div class="quote-author">— Abdulmalik Idris Bala</div>
+
+    <div class="timeline">
+      <h2 style="color: var(--blue); margin-bottom: 1rem;">My Journey</h2>
+
+      <div class="timeline-item">
+        <strong>2023:</strong> Started exploring music video directing with basic equipment and passion.
+      </div>
+
+      <div class="timeline-item">
+        <strong>2024:</strong> Developed my unique style combining calmness with complexity, and founded Obalola Lumière Films.
+      </div>
+
+      <div class="timeline-item">
+        <strong>2025:</strong> Built a portfolio, launched my website, and began working with emerging artists across Nigeria.
+      </div>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</body>
+</html>
